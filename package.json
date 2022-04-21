@@ -1,0 +1,19 @@
+{
+  "name": "devpath-blog",
+  "version": "1.0.0",
+  "description": "A blog that documents my journey of becoming a webdevloper, as well as the tips and trick I'll learn along the way.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FarazChand/devpath-blog.git"
+  },
+  "author": "Faraz Chand",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FarazChand/devpath-blog/issues"
+  },
+  "homepage": "https://github.com/FarazChand/devpath-blog#readme"
+}
