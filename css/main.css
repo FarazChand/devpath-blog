@@ -27,6 +27,30 @@ body {
   font-family: var(--ff-primary);
   font-weight: 400;
   color: var(--clr-primary-300);
-  font-size: 2rem;
+  font-size: 1.8rem;
   line-height: 1.6;
+  background-color: beige;
+}
+
+/* TEMP */
+header {
+  margin-bottom: 5rem;
+}
+
+/* UTILITY */
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section-gap {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1.5em;
+}
+
+.content {
+  /* background-color: aquamarine; */
+  width: 90%;
+  padding: 1em;
 }
