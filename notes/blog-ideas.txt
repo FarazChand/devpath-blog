@@ -1,0 +1,18 @@
+BLOG IDEAS
+**********
+- how to instal git and github (for windows)
+- beginner git hub commands
+- how to instal and use parcel
+- different useful libraries
+- my journey so far
+- why mobile first
+- where to start as a new developer
+- how hard is it to learn web dev 
+- best learning resources that I've run into
+- how long should you study per day if you want to become a web developer??
+- frameworks vs libraries
+- what is npm
+- npm basic commands
+- how to stay motivated
+
+

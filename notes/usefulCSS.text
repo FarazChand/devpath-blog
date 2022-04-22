@@ -1,0 +1,39 @@
+Useful Tips for CSS
+********************
+
+*) Which CSS unit should you use?
+- font-size      :   rem
+- width          :   % in combination with a max-width, ch
+- height         :   question urself "do i rly need to set height" if yes -> use a min-height
+- padding/margin :   rem or em, kevin often uses em for padding of buttons
+- media queries  :   em
+- px             :   only for little things like shadows, borders etc.
+
+*) EM vs REM
+-> EM
+  - related to it's parents fontsize
+  - can compound and cause problems if not used correctly
+  - margins set in EM are related to the current elements font size instead of the parents
+  - can be useful to use for padding on elements such as buttons, because the padding scales to the font size
+
+
+->REM
+  - related to the root fontsize (16px default)
+  - more consistent
+
+Conclusion:
+- it could be a good idea to use REMS for spacing (margins) and use EMS for padding
+- it could be a good idea to use REMS for font size
+
+
+2) CSS variables
+
+3) Responsive Nav
+
+4) Color scheme
+
+5) Basic Reset
+
+6) CSS grid basics
+
+7) Flex box basics

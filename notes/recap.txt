@@ -1,0 +1,6 @@
+
+- Started by doing research on what I wanted my blog to look like
+- Accomplished this by looking at blogs all over the web and taking note of what features and layouts I liked from each
+
+- Wanted to build this using a mobile first approach, so I used Kevin Powell's advice on creating the HTML for the most complicated state of the blog, being the desktop version
+- Once I finished writing the HTML, I focused on styling general aspects of the blog, not focusing on responsiveness yet
