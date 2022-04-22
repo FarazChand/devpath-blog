@@ -1,0 +1,32 @@
+:root {
+  /* Preset Colors */
+  --clr-primary-300: blue;
+
+  --clr-neutral-100: #fff;
+
+  /* Preset Fonts */
+  --ff-primary: "Open-sans", sans-serif;
+}
+
+/* Basic Reset */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: var(--ff-primary);
+  font-weight: 400;
+  color: var(--clr-primary-300);
+  font-size: 2rem;
+  line-height: 1.6;
+}
