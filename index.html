@@ -1,138 +1,150 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>DevPath 🚶‍♂️</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="css/main.css" />
-  </head>
-  <body>
-    <!-- <container class="center"> -->
-    <header>
-      <div class="logo">DevPath</div>
-      <nav class="nav">
-        <ul class="nav-links">
-          <li class="latest">Latest</li>
-          <li class="Posts">Posts</li>
-          <li class="About">About</li>
-          <li class="Contact">Contact</li>
-        </ul>
-        <div class="settings">
-          <div class="nightmode">icon</div>
-          <div class="other-setting">icon</div>
-        </div>
-      </nav>
-      <div class="hero">
-        <div>heroImg</div>
-      </div>
-    </header>
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>DevPath 🚶‍♂️</title>
 
-    <main class="main-content center section-gap">
-      <section class="blogs-section">
-        <header><h2 class="section-title">Recently Published</h2></header>
+      <!-- Random Font -->
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <!-- Roboto -->
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link
+         href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap"
+         rel="stylesheet"
+      />
 
-        <div class="blogs-container section-gap">
-          <div class="blog-container">
-            <h3 class="blog-title">My First Blog</h3>
-            <p class="blog-content">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum
-              esse dolor eaque. Nulla adipisci asperiores quis reprehenderit!
-              Ratione assumenda quae quos. Aut eos placeat labore nisi ratione
-              reiciendis ex tempore?
+      <!-- CSS -->
+      <link rel="stylesheet" href="css/main.css" />
+   </head>
+   <body>
+      <!-- <container class="center"> -->
+      <header class="page-header">
+         <h1 class="logo"><a href="index.html">DevPath</a></h1>
+         <nav class="nav">
+            <ul class="nav-links">
+               <li class="latest"><a href="#">Latest</a></li>
+               <li class="Posts"><a href="#">Posts</a></li>
+               <li class="About"><a href="#">About</a></li>
+               <li class="Contact"><a href="#">Contact</a></li>
+            </ul>
+            <div class="settings">
+               <div class="nightmode">icon</div>
+               <div class="other-setting">icon</div>
+            </div>
+         </nav>
+
+         <div class="nav-btn-open">O</div>
+         <div class="nav-btn-close">X</div>
+         <div class="hero">
+            <div>heroImg</div>
+         </div>
+      </header>
+
+      <main class="main-content center section-gap">
+         <section class="blogs-section">
+            <header><h2 class="section-title">Recently Published</h2></header>
+
+            <div class="blogs-container section-gap">
+               <div class="blog-container">
+                  <h3 class="blog-title">My First Blog</h3>
+                  <p class="blog-content">
+                     Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                     Illum esse dolor eaque. Nulla adipisci asperiores quis
+                     reprehenderit! Ratione assumenda quae quos. Aut eos placeat
+                     labore nisi ratione reiciendis ex tempore?
+                  </p>
+
+                  <div class="read-more bold">Read more</div>
+               </div>
+
+               <div class="blog-container">
+                  <h3 class="blog-title">My Second Blog</h3>
+                  <p class="blog-content">
+                     Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                     Illum esse dolor eaque. Nulla adipisci asperiores quis
+                     reprehenderit! Ratione assumenda quae quos. Aut eos placeat
+                     labore nisi ratione reiciendis ex tempore?
+                  </p>
+
+                  <div class="read-more bold">Read more</div>
+               </div>
+
+               <div class="blog-container">
+                  <h3 class="blog-title">My Third Blog</h3>
+                  <p class="blog-content">
+                     Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                     Illum esse dolor eaque. Nulla adipisci asperiores quis
+                     reprehenderit! Ratione assumenda quae quos. Aut eos placeat
+                     labore nisi ratione reiciendis ex tempore?
+                  </p>
+
+                  <div class="read-more bold">Read more</div>
+               </div>
+            </div>
+         </section>
+
+         <!-- Not sure if I sure wrap these in order to make using grid easier? -->
+         <section class="categories-section">
+            <header><h2 class="section-title">Top Categories</h2></header>
+            <ul class="categories">
+               <li class="category">HTML</li>
+               <li class="category">CSS</li>
+               <li class="category">JS</li>
+               <li class="category">MOTIVATION</li>
+               <li class="category">REACT</li>
+            </ul>
+         </section>
+
+         <section class="popular-posts">
+            <header><h2 class="section-title">Popular Posts</h2></header>
+            <div class="popular-post">Blog Number #1</div>
+            <div class="popular-post">Blog Number #2</div>
+            <div class="popular-post">Blog Number #3</div>
+            <div class="popular-post">Blog Number #4</div>
+            <div class="popular-post">Blog Number #5</div>
+            <div class="popular-post">Blog Number #6</div>
+            <div class="popular-post">Blog Number #7</div>
+         </section>
+         <!-- Not sure if I sure wrap these in order to make using grid easier? -->
+
+         <section class="news-letter-container">
+            <header>
+               <h2 class="section-title">
+                  Subsribe to my news letter for my latest posts!
+               </h2>
+            </header>
+            <p class="news-letter-content">
+               Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci
+               consectetur quos doloremque voluptas aspernatur deserunt est.
+               Eius blanditiis dolor numquam sapiente recusandae ducimus, quos
+               reprehenderit expedita non ex repudiandae maiores.
             </p>
 
-            <div class="read-more">Read more</div>
-          </div>
-
-          <div class="blog-container">
-            <h3 class="blog-title">My Second Blog</h3>
-            <p class="blog-content">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum
-              esse dolor eaque. Nulla adipisci asperiores quis reprehenderit!
-              Ratione assumenda quae quos. Aut eos placeat labore nisi ratione
-              reiciendis ex tempore?
+            <p class="news-letter-phrase">
+               Lorem ipsum dolor sit amet consectetur
             </p>
 
-            <div class="read-more">Read more</div>
-          </div>
+            <div class="new-letter-inputs">
+               <div class="first-name-container">
+                  <p class="first-name-label">First Name</p>
+                  <input class="first-name" type="text" />
+               </div>
 
-          <div class="blog-container">
-            <h3 class="blog-title">My Third Blog</h3>
-            <p class="blog-content">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum
-              esse dolor eaque. Nulla adipisci asperiores quis reprehenderit!
-              Ratione assumenda quae quos. Aut eos placeat labore nisi ratione
-              reiciendis ex tempore?
-            </p>
+               <div class="email-container">
+                  <p class="email-label">Email</p>
+                  <input class="email" type="text" />
+               </div>
+            </div>
 
-            <div class="read-more">Read more</div>
-          </div>
-        </div>
-      </section>
+            <button class="subscribe-btn">Subscribe</button>
+         </section>
+      </main>
 
-      <!-- Not sure if I sure wrap these in order to make using grid easier? -->
-      <section class="categories-section">
-        <header><h2 class="section-title">Top Categories</h2></header>
-        <ul class="categories">
-          <li class="category">HTML</li>
-          <li class="category">CSS</li>
-          <li class="category">JS</li>
-          <li class="category">MOTIVATION</li>
-          <li class="category">REACT</li>
-        </ul>
-      </section>
-
-      <section class="popular-posts">
-        <header><h2 class="section-title">Popular Posts</h2></header>
-        <div class="popular-post">Blog Number #1</div>
-        <div class="popular-post">Blog Number #2</div>
-        <div class="popular-post">Blog Number #3</div>
-        <div class="popular-post">Blog Number #4</div>
-        <div class="popular-post">Blog Number #5</div>
-        <div class="popular-post">Blog Number #6</div>
-        <div class="popular-post">Blog Number #7</div>
-      </section>
-      <!-- Not sure if I sure wrap these in order to make using grid easier? -->
-
-      <section class="news-letter-container">
-        <header>
-          <h2 class="section-title">
-            Subsribe to my news letter for my latest posts!
-          </h2>
-        </header>
-        <p class="news-letter-content">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci
-          consectetur quos doloremque voluptas aspernatur deserunt est. Eius
-          blanditiis dolor numquam sapiente recusandae ducimus, quos
-          reprehenderit expedita non ex repudiandae maiores.
-        </p>
-
-        <p class="news-letter-phrase">Lorem ipsum dolor sit amet consectetur</p>
-
-        <div class="new-letter-inputs">
-          <div class="first-name-container">
-            <p class="first-name-label">First Name</p>
-            <input class="first-name" type="text" />
-          </div>
-
-          <div class="email-container">
-            <p class="email-label">Email</p>
-            <input class="email" type="text" />
-          </div>
-        </div>
-
-        <button class="subscribe-btn">Subscribe</button>
-      </section>
-    </main>
-
-    <footer class="footer-container"></footer>
-    <!-- </container> -->
-  </body>
+      <footer class="footer-container"></footer>
+      <!-- </container> -->
+   </body>
 </html>
