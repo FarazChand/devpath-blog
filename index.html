@@ -16,6 +16,12 @@
          href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap"
          rel="stylesheet"
       />
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link
+         href="https://fonts.googleapis.com/css2?family=Lobster&display=swap"
+         rel="stylesheet"
+      />
 
       <!-- CSS -->
       <link rel="stylesheet" href="css/main.css" />
@@ -23,32 +29,46 @@
    <body>
       <!-- <container class="center"> -->
       <header class="page-header">
-         <h1 class="logo"><a href="index.html">DevPath</a></h1>
-         <nav class="nav">
-            <ul class="nav-links">
-               <li class="latest"><a href="#">Latest</a></li>
-               <li class="Posts"><a href="#">Posts</a></li>
-               <li class="About"><a href="#">About</a></li>
-               <li class="Contact"><a href="#">Contact</a></li>
-            </ul>
-            <div class="settings">
-               <div class="nightmode">icon</div>
-               <div class="other-setting">icon</div>
-            </div>
-         </nav>
+         <div class="nav-bar center">
+            <h1 class="logo"><a href="index.html">DevPath</a></h1>
+            <nav class="nav">
+               <ul class="nav-links">
+                  <li class="nav-link"><a href="#">Latest</a></li>
+                  <li class="nav-link"><a href="#">Posts</a></li>
+                  <li class="nav-link"><a href="#">About</a></li>
+                  <li class="nav-link"><a href="#">Contact</a></li>
+               </ul>
+               <div class="settings">
+                  <div class="nightmode">N</div>
+                  <div class="other-setting">S</div>
+               </div>
+            </nav>
 
-         <div class="nav-btn-open">O</div>
-         <div class="nav-btn-close">X</div>
+            <div class="nav-btn-open">O</div>
+            <div class="nav-btn-close">X</div>
+         </div>
+
          <div class="hero">
-            <div>heroImg</div>
+            <div class="hero-imgs-container">
+               <img
+                  class="hero-img center"
+                  src="./imgs/hero-main.jpg"
+                  alt="Man staring off a cliff at a winding path"
+               />
+               <!-- <img
+                  class="hero-bg-img"
+                  src="./imgs/hero-overlay-1.jpg"
+                  alt="Code on a screen"
+               />-->
+            </div>
          </div>
       </header>
 
-      <main class="main-content center section-gap">
+      <main class="main-content center grid--one-col">
          <section class="blogs-section">
             <header><h2 class="section-title">Recently Published</h2></header>
 
-            <div class="blogs-container section-gap">
+            <div class="blogs-container flex-column">
                <div class="blog-container">
                   <h3 class="blog-title">My First Blog</h3>
                   <p class="blog-content">

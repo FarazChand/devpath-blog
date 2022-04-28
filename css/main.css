@@ -3,12 +3,12 @@
    --clr-primary-300: #444;
    --clr-primary-400: #3d3d3d;
    --clr-primary-500: #222;
-
    --clr-neutral-100: #fff;
 
    /* Preset Fonts */
-   /* --ff-primary: "Open-sans", sans-serif; */
-   font-family: "Roboto", sans-serif;
+   --ff-primary: "Open-sans", sans-serif;
+   /* --ff-primary: "Roboto", sans-serif; */
+   --ff-logo: "Lobster", cursive;
 }
 
 /* Basic Reset */
@@ -25,31 +25,29 @@
 
 html {
    font-size: 62.5%;
+   color: var(--clr-primary-500);
+   font-family: var(--ff-primary);
+   font-weight: 400;
+   font-size: 1.5rem;
+   line-height: 1.5;
+
+   /* overflow-x: hidden; */
 }
 
 body {
-   font-family: var(--ff-primary);
-   font-weight: 400;
-   color: var(--clr-primary-400);
-   font-size: 1.8rem;
-   line-height: 1.6;
    background-color: #fff;
 }
 
+a:link,
 a:hover,
 a:visited,
 a:active {
    color: inherit;
+   text-decoration: none;
 }
 
-/* TEMP */
-.page-header {
-   margin-bottom: 5rem;
-}
-
-.nav,
-.hero {
-   display: none;
+ul {
+   list-style: none;
 }
 
 /* UTILITY */
@@ -58,27 +56,69 @@ a:active {
    margin-right: auto;
 }
 
-/* .section-gap {
+.flex-column {
    display: flex;
    flex-direction: column;
-   row-gap: 1.5em;
-} */
+}
 
-.section-gap {
+.grid--one-col {
    display: grid;
    grid-template-columns: 1fr;
-   row-gap: 1.5em;
 }
 
 .bold {
    font-weight: 700;
 }
 
-/* Elements */
+/* ----Elements---- */
+
+/* Header */
+
+.page-header {
+   text-align: center;
+}
+
+.logo {
+   font-family: var(--ff-logo);
+}
+
+.nav {
+   display: flex;
+   justify-content: space-around;
+}
+
+.nav-links {
+   display: flex;
+   justify-content: space-around;
+}
+
+.nav-link {
+   display: inline-block;
+   padding: 0.5em;
+   font-size: 0.8rem;
+}
+
+.settings {
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+}
+
+.nav-btn-open,
+.nav-btn-close {
+   display: none;
+}
+
+.hero-img {
+   display: block;
+   max-width: 100%;
+}
+
+/* Main */
 .main-content {
    /* background-color: aquamarine; */
-   width: 90%;
-   padding: 1em;
+   max-width: 90%;
+   /* padding: 1em; */
 }
 
 .section-title {
